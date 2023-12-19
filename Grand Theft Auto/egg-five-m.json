@@ -4,10 +4,10 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2023-02-20T10:49:19+01:00",
+    "exported_at": "2023-02-19T12:54:36+01:00",
     "name": "FiveM",
-    "author": "petardimicmain@gmail.com",
-    "description": "A new FiveM egg for the recommended builds due to recent changes in FiveM",
+    "author": "parker@parkervcp.com",
+    "description": "A new FiveM egg for the latest builds due to recent changes in FiveM",
     "features": null,
     "docker_images": {
         "ghcr.io\/parkervcp\/yolks:debian": "ghcr.io\/parkervcp\/yolks:debian"
@@ -62,7 +62,7 @@
             "name": "FiveM Version",
             "description": "The fivem version that is to be installed. Invalid versions will default to recommended.\r\n\r\nAn example is `7257-030778a167242f79e0f59cd8d9c04b970e3b75c2`\r\n\r\nYou can get the latest version from here - https:\/\/runtime.fivem.net\/artifacts\/fivem\/build_proot_linux\/master\/",
             "env_variable": "FIVEM_VERSION",
-            "default_value": "latest",
+            "default_value": "recommended",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:50",
@@ -102,7 +102,7 @@
             "name": "Download Link",
             "description": "This is the link to download fivem from. This is only used in the install script.\r\n\r\nThe file you link to needs to be an fx.tar.zx file.\r\n\r\nExample:\r\nhttps:\/\/runtime.fivem.net\/artifacts\/fivem\/build_proot_linux\/master\/`7257-030778a167242f79e0f59cd8d9c04b970e3b75c2\/fx.tar.xz",
             "env_variable": "DOWNLOAD_URL",
-            "default_value": "7257-030778a167242f79e0f59cd8d9c04b970e3b75c2",
+            "default_value": "",
             "user_viewable": false,
             "user_editable": false,
             "rules": "string|nullable",
