@@ -62,7 +62,7 @@
             "name": "FiveM Version",
             "description": "The fivem version that is to be installed. Invalid versions will default to recommended.\r\n\r\nAn example is `7345-eac42c10d76dc7879c08437aa25c705537d9ac42`\r\n\r\nYou can get the latest version from here - https:\/\/runtime.fivem.net\/artifacts\/fivem\/build_proot_linux\/master\/",
             "env_variable": "FIVEM_VERSION",
-            "default_value": "recommended",
+            "default_value": "latest",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:50",
